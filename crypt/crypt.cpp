@@ -13,8 +13,8 @@ const wchar_t * rot13(const wchar_t * source)
 
 	std::wstring  src = std::wstring(source);
 
-	const wchar_t* v[] = { L"ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί",
-					L"ΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ",
+	const wchar_t* v[] = {  L"ΠΠ‘Π’Π“Π”Π•Π–Π—ΠΠ™ΠΠ›ΠΠΠΠΠ Π΅ΠΆΠ£Π¤Π¥Π¦Π§Π¨Π©ΠªΠ«Π¬Π­Π®Π―",
+					L"Π°Π±Π²Π³Π΄ΠµΠ¶Π·ΠΈΠΉΠΊΠ»ΠΌΠ½ΠΎΠΏΡ€ΡΡ‚ΡƒΡ„Ρ…Ρ†Ρ‡ΡΡ‰ΡΡ‹ΡΡΡΡ",
 					L"ABCDEFGHIJKLMNOPQRSTUVWXYZ",
 					L"abcdefghijklmnopqrstuvwxyz",
 					L"0123456789",
